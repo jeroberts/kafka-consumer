@@ -1,0 +1,13 @@
+kafka:
+  autoOffsetResetConfig: 'earliest'
+  groupId:
+    person: 'Person_Group_Id'
+  servers: '127.0.0.1:9092'
+  topic:
+    person: 'Person_Topic'
+
+logging:
+  config: classpath:log4j2.yaml
+
+server:
+  port: 8082
